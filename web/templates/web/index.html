@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Library</title>
     {% load static %}
-    <link rel="stylesheet" href="{% static 'css/reset.css' %}">
-    <link rel="stylesheet" href="{% static 'css/style.css' %}"
+    <link rel="stylesheet" href="{% static 'css/reset.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
 </head>
 <body>
     <header class="s-header">
         <div class="header-logo">
-            <a href="{% url 'home' %}" class="site-logo"><img src ="{% static 'images/logo.jpg' %} alt=""></a>
+            <a href="{% url 'home' %}" class="site-logo"><img src ="{% static 'images/logo.jpg' %}" alt=""> </a>
         </div>
         <nav class="header-nav">
             <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
@@ -23,11 +23,13 @@
                     <li><a href="#Info" title="Info">Info</a></li>
                 </ul>
                 <ul class="header-nav__social">
-                    <li><a href="https://www.facebook.com/profile.php?id=100003173075186"></a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=100003173075186">О нас</a></li>
                 </ul>
             </div>
         </nav>
-
+        <a href="#0" class="header-menu-toggle">
+            <span class="header-menu-text">Меню</span>
+        </a>
 
     </header>
     
